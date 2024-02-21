@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: xx-large;
+}
+
+.output {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 90vw;
+    margin: auto;
+}
+
+.output img {
+    max-width: 200px;
+    outline: 1px solid blueviolet;
+    border-radius: 5px;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 15px 5px #000000;
+    padding: 20px 0;
+}
+
+.tile:hover {
+    transition: 300ms ease-in-out;
+    transform: scale(1.1);
+}
+
+.button {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
